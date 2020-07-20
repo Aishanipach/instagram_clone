@@ -1,12 +1,26 @@
 
+
 import React, { Component } from 'react';
 
     import './App.css';
-    import Header from '././components/Header';
+    import Header from '././components/Header';// eslint-disable-next-line
+    import Post from '././components/Post';
     class App extends Component {
       render() {
         return (
-          <Header />
+        <div classname= "App">
+          
+            <Header />
+            <section classname= "App">
+                <Post nickname="Chris" avatar="https://www.laravelnigeria.com/img/chris.jpg" caption="Moving the community!" image="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
+              <Post nickname="OG" avatar="https://www.laravelnigeria.com/img/chris.jpg" caption="Holding a mic" image="https://pbs.twimg.com/media/DOXI0IEXkAAkokm.jpg" />
+              {/* more posts */}
+            </section>
+            <div>
+          <Post />
+        </div>
+        </div>
+          
         );
       }
     }
