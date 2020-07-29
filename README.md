@@ -1,4 +1,4 @@
-It is a front-end design clone for Instagram. 
+It is a web-app clone for Instagram. 
 
 
 This project was bootstrapped with 
